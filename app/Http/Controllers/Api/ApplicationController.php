@@ -33,7 +33,7 @@ class ApplicationController extends Controller
             ]);
 
             if (!$this->checkAustralianMobileNumber($mobile)) {
-                throw new \Exception('Please enter a valid Australian mobile number');
+                //throw new \Exception('Please enter a valid Australian mobile number');
             }
 
             if ($this->getOTPCount($mobile)) {
