@@ -15,14 +15,13 @@
                 <label class="form-label text-default">Mobile Number</label>
                 <input 
   type="tel"
-  inputmode="numeric"
-  pattern="[0-9]*"
   class="form-control form-control-lg"
   v-model="mobile"
   placeholder="Mobile Number"
   maxlength="10"
   @input="checkMobileNumber"
 />
+
 
             </div>
             <p class="mb-4 mt-4 text-center subheading op-7 fw-normal ">Please enter valid and active mobile number as we
