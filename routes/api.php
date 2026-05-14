@@ -49,7 +49,7 @@ Route::post('/auth/bank', [BankController::class, 'store'])->name('bank.store');
 Route::get('/auth/loan-question', [LoanQuestionController::class, 'index'])->name('loanQuestion.index');
 Route::get('/auth/loan-reason', [LoanReasonController::class, 'index'])->name('loanReason.index');
 Route::get('/auth/loan-term', [LoanTermController::class, 'index'])->name('loanTerm.index');
-Route::get('/auth/loan-term/{slug}', [LoanTermController::class, 'index'])->name('loanTerm.index');
+Route::get('/auth/loan-term/{slug}', [LoanTermController::class, 'index'])->name('loanTerm.index.1');
 
 //verify bank
 Route::post('/auth/bankverify', [BasiqController::class, 'authenticate'])->name('bank.verify');

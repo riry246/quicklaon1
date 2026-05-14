@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '1d7e06c5be093a2e9b60036880f03e4d47aef495',
+        'reference' => 'f7040e5bd62f33f446369c7ffdc50e2bbaf2b1a1',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'barryvdh/laravel-debugbar' => array(
-            'pretty_version' => 'v3.9.3',
-            'version' => '3.9.3.0',
-            'reference' => 'afa2c4108df23b92a71fa4afd6d0c499e361eaa0',
+            'pretty_version' => 'v3.16.5',
+            'version' => '3.16.5.0',
+            'reference' => 'e85c0a8464da67e5b4a53a42796d46a43fc06c9a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../barryvdh/laravel-debugbar',
             'aliases' => array(),
@@ -427,7 +427,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '1d7e06c5be093a2e9b60036880f03e4d47aef495',
+            'reference' => 'f7040e5bd62f33f446369c7ffdc50e2bbaf2b1a1',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -587,13 +587,10 @@
             'dev_requirement' => false,
         ),
         'maximebf/debugbar' => array(
-            'pretty_version' => 'v1.19.0',
-            'version' => '1.19.0.0',
-            'reference' => '30f65f18f7ac086255a77a079f8e0dcdd35e828e',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../maximebf/debugbar',
-            'aliases' => array(),
             'dev_requirement' => true,
+            'replaced' => array(
+                0 => 'v2.2.4',
+            ),
         ),
         'mockery/mockery' => array(
             'pretty_version' => '1.6.6',
@@ -726,6 +723,15 @@
             'install_path' => __DIR__ . '/../phenx/php-svg-lib',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'php-debugbar/php-debugbar' => array(
+            'pretty_version' => 'v2.2.4',
+            'version' => '2.2.4.0',
+            'reference' => '3146d04671f51f69ffec2a4207ac3bdcf13a9f35',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-debugbar/php-debugbar',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'phpoption/phpoption' => array(
             'pretty_version' => '1.9.1',
@@ -919,8 +925,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '3.0.0',
-                1 => '1.0|2.0|3.0',
+                0 => '1.0|2.0|3.0',
+                1 => '3.0.0',
             ),
         ),
         'psr/simple-cache' => array(
