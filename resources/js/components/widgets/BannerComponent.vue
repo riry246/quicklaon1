@@ -340,7 +340,7 @@
                     <h5 class="mb-2 fw-bold">Link your payment method</h5>
                     <div class="text-muted mb-1 fs-12">
                         <span class="text-dark text-white fs-13 lh-1 vertical-bottom">
-                            Get 50 Cashfaster points by updating your payment methods
+                            Get 50 QuickLoan points by updating your payment methods
                         </span>
                     </div>
                     <hr />

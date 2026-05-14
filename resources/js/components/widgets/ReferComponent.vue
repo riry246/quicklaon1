@@ -9,7 +9,7 @@
             </div>
             <div class="card-footer ">
                 <h4 class="fs-4">Refer your friends and earn rewards.</h4>
-                <p class="text-muted pb-2 pt-2">Share the love by inviting your friends to join Cash Faster. When they sign
+                <p class="text-muted pb-2 pt-2">Share the love by inviting your friends to join QuickLoan. When they sign
                     up using your referral link, both you and your friend will enjoy fantastic benefits. It's a win-win!
                     Start referring now and make every friend count.</p>
                 <a class="btn btn-secondary d-grid mt-3 mb-3" data-bs-effect="effect-super-scaled" data-bs-toggle="modal"

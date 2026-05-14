@@ -2,7 +2,7 @@
     <div class="card custom-card"
         v-if="val.loanApplication.status == 'pending' || val.loanApplication.status == 'processing'">
         <div class="card-body">
-            <h6 class="card-title fw-semibold mb-3 border-bottom pb-3">Cashfaster Points<span
+            <h6 class="card-title fw-semibold mb-3 border-bottom pb-3">QuickLoan Points<span
                     class="badge bg-info float-end fs-6">{{ val.score }}</span></h6>
             <div class="row ">
                 <div
@@ -10,7 +10,7 @@
                     <i class="bx bxs-star text-warning"></i>
                 </div>
                 <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 justify-content-center p-0">
-                    <h6>Love using Cashfaster? </h6>
+                    <h6>Love using Quickloans? </h6>
                     <p class="card-text fs-7 fw-semibold text-muted">Share your experience and leave us a review! </p>
 
                 </div>
@@ -32,7 +32,7 @@
                     <div class="modal-body text-start front-slider">
 
                         <p class="mb-4 op-7 fw-normal text-center fs-14">
-                            For a limited time, <span class="fw-semibold">earn 30 Cashfaster points</span> <br />when you
+                            For a limited time, <span class="fw-semibold">earn 30 Quickloans points</span> <br />when you
                             share your thoughts.
                             Your feedback means a lot to us! <br />
 
@@ -55,7 +55,7 @@
                                                 alt="...">
                                         </div>
 
-                                        <a target="_blank" href="https://www.trustpilot.com/review/cashfaster.com.au" class="text-primary ms-2 d-inline-block mt-3">Review
+                                        <a target="_blank" href="https://www.trustpilot.com/review/Quickloans.com.au" class="text-primary ms-2 d-inline-block mt-3">Review
                                             now</a>
                                     </div>
 
@@ -87,7 +87,7 @@
                 <li><b>Improve Credit Score:</b><br /> Promptly pay off debts, use credit responsibly, and regularly check
                     and correct credit reports to boost your creditworthiness.</li>
             </ol>
-            Enhance your Cashfaster Credit Score by settling outstanding debts promptly and enhancing your overall financial
+            Enhance your Quickloans Credit Score by settling outstanding debts promptly and enhancing your overall financial
             standing.</p>
         </div>
         <div class="card-footer"> <a href="javascript:void(0);" class="btn btn-secondary d-grid">Learn More</a> </div>
